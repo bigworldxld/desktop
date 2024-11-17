@@ -411,7 +411,7 @@
       "customTile": "",
       "urlRandomToken": false
     },
-	"yl-bilibili": {
+	"duxu-bilibili": {
       "addressBar": true,
       "autoRun": 0,
       "background": false,
@@ -420,7 +420,7 @@
       "icon": {
         "type": "fa",
         "content": "tv",
-        "bg": "#E6E61A"
+        "bg": "#EDED57"
       },
       "openMode": "normal",
       "plugin": false,
@@ -444,7 +444,7 @@
       "customTile": "",
       "urlRandomToken": false
     },
-	"yl-esjson": {
+	"duxu-esjson": {
       "addressBar": true,
       "autoRun": 0,
       "background": false,
@@ -477,7 +477,7 @@
       "customTile": "",
       "urlRandomToken": false
     },	
-	"yl-crazygames": {
+	"duxu-crazygames": {
       "addressBar": true,
       "autoRun": 0,
       "background": false,
@@ -485,8 +485,8 @@
       "desc": "some crazygames",
       "icon": {
         "type": "fa",
-        "content": "gamepad-modern",
-        "bg": "#EEEEEE"
+        "content": "gamepad",
+        "bg": "#1C0606"
       },
       "openMode": "normal",
       "plugin": false,
@@ -510,7 +510,7 @@
       "customTile": "",
       "urlRandomToken": false
     },
-	"yl-itch": {
+	"duxu-itch": {
       "addressBar": true,
       "autoRun": 0,
       "background": false,
@@ -518,8 +518,8 @@
       "desc": "itch.io",
       "icon": {
         "type": "fa",
-        "content": "game-console-handheld-crank",
-        "bg": "#EEEEEE"
+        "content": "star",
+        "bg": "#1C0606"
       },
       "openMode": "normal",
       "plugin": false,
@@ -542,7 +542,41 @@
       "url": "https://itch.io/games",
       "customTile": "",
       "urlRandomToken": false
+    },
+	"duxu-efcloud": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "好用梯子",
+      "icon": {
+        "type": "fa",
+        "content": "plane",
+        "bg": "#DA6969"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "读序",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "ladder",
+      "url": "https://www.efc1.net/login",
+      "customTile": "",
+      "urlRandomToken": false
     }
+
   },    
   "shortcuts": [
     {
@@ -564,41 +598,70 @@
       "hash": ""
     },
 	{
-      "app": "yl-bilibili",
+      "app": "duxu-bilibili",
       "title": "B站",
       "params": {},
       "hash": ""
     },
 	{
-      "app": "yl-esjson",
-      "title": "json工具",
-      "params": {},
-      "hash": ""
-    },
-	{
-      "app": "ylui-github",
-      "title": "github",
-      "params": {},
-      "hash": ""
-    },
-	{
-      "app": "ylui-gitee",
-      "title": "码云仓库",
-      "params": {},
-      "hash": ""
+      "title": "工具库",
+      "children": [
+		{
+		  "app": "duxu-esjson",
+		  "title": "json工具",
+		  "params": {},
+		  "hash": ""
+		},
+		{
+		  "app": "yl-color-picker",
+		  "title": "简单的取色器",
+		  "params": {},
+		  "hash": ""
+		},
+
+        {
+          "app": "duxu-efcloud",
+          "title": "ladder",
+          "params": {},
+          "hash": ""
+        }
+      ]
     },
 	{
       "title": "游戏库",
       "children": [
         {
-          "app": "ylui-crazygames",
+          "app": "duxu-crazygames",
           "title": "crazygames",
           "params": {},
           "hash": ""
         },
         {
-          "app": "ylui-itch",
+          "app": "duxu-itch",
           "title": "itch.io",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "代码库",
+      "children": [
+        {
+          "app": "ylui-documents",
+          "title": "pdf在线文档",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "ylui-github",
+          "title": "github",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "ylui-gitee",
+          "title": "码云仓库",
           "params": {},
           "hash": ""
         }
