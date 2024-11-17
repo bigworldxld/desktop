@@ -597,23 +597,6 @@
           "hash": ""
         }
       ]
-    },
-	{
-      "title": "游戏库",
-      "children": [
-        {
-          "app": "ylui-crazygames",
-          "title": "crazygames",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "ylui-itch",
-          "title": "itch.io",
-          "params": {},
-          "hash": ""
-        }
-      ]
     }
 	
   ],
