@@ -576,6 +576,18 @@
       "hash": ""
     },
 	{
+      "app": "ylui-github",
+      "title": "github",
+      "params": {},
+      "hash": ""
+    },
+	{
+      "app": "ylui-gitee",
+      "title": "码云仓库",
+      "params": {},
+      "hash": ""
+    }
+	{
       "title": "游戏库",
       "children": [
         {
@@ -587,29 +599,6 @@
         {
           "app": "ylui-itch",
           "title": "itch.io",
-          "params": {},
-          "hash": ""
-        }
-      ]
-    },
-    {
-      "title": "代码库",
-      "children": [
-        {
-          "app": "ylui-documents",
-          "title": "pdf在线文档",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "ylui-github",
-          "title": "github",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "ylui-gitee",
-          "title": "码云仓库",
           "params": {},
           "hash": ""
         }
