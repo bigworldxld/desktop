@@ -191,7 +191,7 @@
         "content": "shopping-bag",
         "bg": "#b36aba"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -209,7 +209,7 @@
         "width": "x*0.8"
       },
       "title": "应用商店",
-      "url": "./res/apps/app-store/index.html",
+      "url": "https://developer.android.google.cn/distribute?hl=zh-cn",
       "customTile": "",
       "urlRandomToken": false
     },
