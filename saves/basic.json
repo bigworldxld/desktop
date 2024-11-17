@@ -442,7 +442,106 @@
       "title": "B站",
       "url": "https://www.bilibili.com/",
       "customTile": "",
-      "urlRandomToken": true
+      "urlRandomToken": false
+    },
+	"duxu-esjson": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "json工具",
+      "icon": {
+        "type": "fa",
+        "content": "code",
+        "bg": "#EEEEEE"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "读序",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "esjson",
+      "url": "http://www.esjson.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },	
+	"yl-crazygames": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "some crazygames",
+      "icon": {
+        "type": "fa",
+        "content": "gamepad-modern",
+        "bg": "#EEEEEE"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "读序",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "game",
+      "url": "https://www.crazygames.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+	"yl-itch": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "itch.io",
+      "icon": {
+        "type": "fa",
+        "content": "game-console-handheld-crank",
+        "bg": "#EEEEEE"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "读序",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "game",
+      "url": "https://itch.io/games",
+      "customTile": "",
+      "urlRandomToken": false
     }
   },    
   "shortcuts": [
@@ -488,6 +587,23 @@
         {
           "app": "ylui-gitee",
           "title": "码云仓库",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+	{
+      "title": "游戏库",
+      "children": [
+        {
+          "app": "ylui-crazygames",
+          "title": "crazygames",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "ylui-itch",
+          "title": "itch.io",
           "params": {},
           "hash": ""
         }
@@ -612,12 +728,6 @@
       "itemPushed-157": {
         "app": "ylui-github",
         "title": "github",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-85": {
-        "app": "yl-bilibili",
-        "title": "B站",
         "params": {},
         "hash": ""
       }
