@@ -412,7 +412,7 @@
       "urlRandomToken": false
     },
 	"duxu-bilibili": {
-      "addressBar": true,
+      "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
@@ -445,7 +445,7 @@
       "urlRandomToken": false
     },
 	"duxu-esjson": {
-      "addressBar": true,
+      "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
@@ -478,7 +478,7 @@
       "urlRandomToken": false
     },	
 	"duxu-crazygames": {
-      "addressBar": true,
+      "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
@@ -511,7 +511,7 @@
       "urlRandomToken": false
     },
 	"duxu-itch": {
-      "addressBar": true,
+      "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
