@@ -444,7 +444,7 @@
       "customTile": "",
       "urlRandomToken": false
     },
-	"duxu-esjson": {
+	"yl-esjson": {
       "addressBar": true,
       "autoRun": 0,
       "background": false,
@@ -566,6 +566,12 @@
 	{
       "app": "yl-bilibili",
       "title": "B站",
+      "params": {},
+      "hash": ""
+    },
+	{
+      "app": "yl-esjson",
+      "title": "json工具",
       "params": {},
       "hash": ""
     },
