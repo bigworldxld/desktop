@@ -181,7 +181,7 @@
       "urlRandomToken": false
     },
     "yl-app-store": {
-      "addressBar": false,
+      "addressBar": true,
       "autoRun": 0,
       "background": false,
       "badge": 0,
@@ -209,9 +209,9 @@
         "width": "x*0.8"
       },
       "title": "应用商店",
-      "url": "https://appstore.ylui.yuri2.cn",
+      "url": "./res/apps/app-store/index.html",
       "customTile": "",
-      "urlRandomToken": true
+      "urlRandomToken": false
     },
     "yl-app-home": {
       "addressBar": false,
@@ -422,7 +422,7 @@
         "content": "tv",
         "bg": "#EDED57"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -455,7 +455,7 @@
         "content": "code",
         "bg": "#EEEEEE"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -488,7 +488,7 @@
         "content": "gamepad",
         "bg": "#1C0606"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -521,7 +521,7 @@
         "content": "star",
         "bg": "#1C0606"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
