@@ -224,7 +224,7 @@
         "content": "user-circle",
         "bg": "#6b96cf"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -243,6 +243,39 @@
       },
       "title": "读序-博客",
       "url": "https://bigworldxld.github.io/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+	 "duxu-blog": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "读序-blog",
+      "icon": {
+        "type": "img",
+        "content": "https://bigworldxld.github.io/picx-images-hosting/images/favicon.webp",
+        "bg": "#FFFFFF"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "读序-blog",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "读序-blog",
+      "url": "https://bigworldxld.github.io/duxu-dailylife/",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -597,6 +630,13 @@
       "params": {},
       "hash": ""
     },
+	{
+      "app": "duxu-blog",
+      "title": "读序-blog",
+      "params": {},
+      "hash": ""
+    },
+
 	{
       "app": "duxu-bilibili",
       "title": "B站",
