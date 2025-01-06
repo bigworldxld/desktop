@@ -284,7 +284,7 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "pdf在线文档",
+      "desc": "github-books-search",
       "icon": {
         "type": "fa",
         "content": "book",
@@ -307,8 +307,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "pdf在线文档",
-      "url": "https://bigworldxld.github.io/pdf/",
+      "title": "book在线文档",
+      "url": "https://ebookfoundation.github.io/free-programming-books-search/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -722,7 +722,7 @@
       "children": [
         {
           "app": "ylui-documents",
-          "title": "pdf在线文档",
+          "title": "github-books-search",
           "params": {},
           "hash": ""
         },
@@ -802,7 +802,7 @@
           "w": 4,
           "h": 2,
           "app": "ylui-documents",
-          "title": "pdf在线文档",
+          "title": "github-books-search",
           "i": "158",
           "params": {},
           "hash": ""
@@ -857,7 +857,7 @@
       },
       "itemPushed-153": {
         "app": "ylui-documents",
-        "title": "pdf在线文档",
+        "title": "github-books-search",
         "params": {},
         "hash": ""
       },
