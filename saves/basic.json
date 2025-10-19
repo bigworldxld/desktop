@@ -543,6 +543,39 @@
       "customTile": "",
       "urlRandomToken": false
     },	
+	"duxu-text-compare": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "文本对比工具",
+      "icon": {
+        "type": "fa",
+        "content": "code",
+        "bg": "#EEEEEE"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "读序",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "jsondiff",
+      "url": "https://www.json.cn/text-compare/",
+      "customTile": "",
+      "urlRandomToken": false
+    },	
 	"duxu-crazygames": {
       "addressBar": false,
       "autoRun": 0,
@@ -682,6 +715,12 @@
 		{
 		  "app": "duxu-esjson",
 		  "title": "json工具",
+		  "params": {},
+		  "hash": ""
+		},
+		{
+		  "app": "duxu-text-compare",
+		  "title": "文本对比工具",
 		  "params": {},
 		  "hash": ""
 		},
